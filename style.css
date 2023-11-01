@@ -32,8 +32,8 @@ body{
 h1{
     font-family:var(--font1);
     color: #a70908;
-   font-size: 50px;
-  text-shadow: 2px 2px 2px var(--color2);
+    font-size: 50px;
+     text-shadow: 2px 2px 2px var(--color2);
 }
 
 h2{
