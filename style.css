@@ -83,6 +83,16 @@ h2{
     padding: 20px;
     border-radius: 10px;
 }
+
+.onglets{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.onglets h3{
+    margin: 0px 20px;
+}
 .column_left{
     width: 49%;
 }
@@ -104,6 +114,8 @@ p{
     
 }
 
-@media (max-width: 760px){
-
+@media (max-width: 1800px){
+    .realisations {
+        width: auto;
+    }
 }
