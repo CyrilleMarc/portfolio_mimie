@@ -1,7 +1,9 @@
 :root{
     --color1: #fae7c6;
     --color2: #a70908;
+    --colorFont : #333333;
     --font1 :  'Monoton', sans-serif;
+    --font2 : 'Lato', sans-serif;
 
 }
 
@@ -16,9 +18,7 @@ body{
     width: 100%;
     height: 20%;
     border: 3px solid var(--color2);
-    border-radius: 20px;
-
-    
+    border-radius: 20px;  
 }
 
 .logo img{
@@ -41,6 +41,7 @@ h2{
     color: #a70908;
     font-size: 35px;
     text-shadow: 1px 1px 1px var(--color2);
+    margin: 0;
 }
 
 .body_container{
@@ -55,7 +56,7 @@ h2{
     width: 98%;
     padding: 20px;
     border-radius: 10px;
-    height: 49%;
+    height: auto;
 }
 
 .projets{
@@ -63,13 +64,14 @@ h2{
     width: 98%;
     padding: 20px;
     border-radius: 10px;
-    height: 49%;
+    height: auto;
     margin-top: 5px;
 }
 
 .realisations{
     border: 3px solid var(--color2);
     width: 46.7%;
+    height: auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -79,4 +81,17 @@ h2{
 
 p{
     color: var(--color2);
+    text-shadow: 1px 1px 1px white;
+    font-family : var(--font2);
+    font-weight: bold;
+}
+
+.Reseaux {
+    margin-top: 10px;
+    border: 3px solid var(--color2);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
 }
