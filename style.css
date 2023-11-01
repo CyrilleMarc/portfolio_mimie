@@ -86,11 +86,13 @@ h2{
 
 .onglets{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: auto;
 }
 
-.onglets h3{
+.onglets a{
     margin: 0px 20px;
 }
 .column_left{
@@ -116,6 +118,56 @@ p{
 
 @media (max-width: 1800px){
     .realisations {
+        width: 43%;
+    }
+    .diplomes {
+        width: 90%;
+    }
+    .projets {
+        width: 90%;
+    }
+    .presentation {
+        width: 90%;
+    }
+    .onglets h3{
         width: auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1100px){
+    .onglets {
+        display : flex;
+        flex-direction : colmun;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 775px){
+    h1{
+        font-size: 13px;
+    }
+    .body_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .realisations {
+        width: auto;
+        margin: 10px 0px;
+    }
+    .diplomes {
+        width: auto;
+    }
+    .projets {
+        width: auto;
+    }
+    .presentation {
+        width: auto;
+    }
+    .column_left{
+        width: 100%;
     }
 }
