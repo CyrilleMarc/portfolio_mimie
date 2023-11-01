@@ -142,13 +142,13 @@ p{
         flex-direction : colmun;
     }
     h1{
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
 @media (max-width: 775px){
     h1{
-        font-size: 13px;
+        font-size: 18px;
     }
     .body_container{
         display: flex;
