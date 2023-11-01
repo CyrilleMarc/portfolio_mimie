@@ -68,6 +68,14 @@ h2{
     margin-top: 5px;
 }
 
+.diplomes{
+    border: 3px solid var(--color2);
+    width: 98%;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 5px;
+}
 .realisations{
     border: 3px solid var(--color2);
     width: 46.7%;
@@ -94,4 +102,8 @@ p{
     padding: 20px;
     border-radius: 10px;
     
+}
+
+@media (max-width: 760px){
+
 }
